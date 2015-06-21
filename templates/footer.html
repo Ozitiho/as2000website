@@ -1,0 +1,30 @@
+			</div>
+			<footer>
+				<div class='overlay'>
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/autoservice2000">
+							<div class="fs1" aria-hidden="true" data-icon="&#xe0c1;"></div> Facebook</a>
+						</li>
+					</ul>
+					<div class='refs'>
+						<h3>In samenwerking met
+						</h3>
+						<img src="/images/anwb.png" height=100>
+						<img src="/images/bovag.png" height=100>
+						<img src="/images/rdw.png" height=100>
+					</div>
+				</div>
+            </footer>
+        </div>
+        <?php
+        	$bestandnaam = 'js/' . basename($_SERVER['PHP_SELF'], '.php') . '.js';
+        	if(file_exists($bestandnaam))
+        	{
+        		echo '<script type="text/javascript" src="'. $bestandnaam . '"> </script>';
+        	}
+        ?>
+		<script type="text/javascript" src="js/flexnav-master/js/jquery.flexnav.min.js"></script>
+		<script type="text/javascript">$(".flexnav").flexNav();</script>
+    </body>
+</html>

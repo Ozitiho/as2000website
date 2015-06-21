@@ -1,0 +1,28 @@
+			</div>
+			<footer>
+				<h3>Bezoek ons op Facebook
+				</h3>
+                <ul id="social_bottom">
+					<li><a href="https://www.facebook.com/autoservice2000" target="_blank">
+						<img src="images/facebook.png" /></a> </li>
+                    </li>
+                </ul>
+				<div class='refs'>
+					<h3>In samenwerking met
+					</h3>
+					<img src="http://fakeimg.pl/100x100/">
+					<img src="http://fakeimg.pl/100x100/">
+					<img src="http://fakeimg.pl/100x100/">
+				</div>
+            </footer>
+        </div>
+        <?php
+        	$bestandnaam = '/js/' . basename($_SERVER['PHP_SELF'], '.php') . '.js';
+        	var_dump($bestandnaam);
+        	if(file_exists($bestandnaam))
+        	{
+        		echo '<script type="text/javascript" src="'. $bestandnaam . '"> </script>';
+        	}
+        ?>
+    </body>
+</html>
