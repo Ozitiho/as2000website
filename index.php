@@ -5,7 +5,7 @@
 
 <section class='contactdiv'>
 	<div class='blueoverlay'> <!-- COLORoverlay as class name --> 
-		<h2>Al meer dan 20 jaar passie en ervaring betekent dat we alleen het beste voor uw auto hebben
+		<h2 class='contactdivtext buttonspace'>Al meer dan 20 jaar passie en ervaring betekent dat we alleen het beste voor uw auto hebben
 		</h2>
 		<button>Neem hier contact op</button>
 	</div>

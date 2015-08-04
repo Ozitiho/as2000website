@@ -5,7 +5,7 @@
 
 <section class='contactdiv anwb'>
 	<div class='blueoverlay'> <!-- COLORoverlay as class name --> 
-		<h2>Pech onderweg. Het kan de beste overkomen.
+		<h2 class='contactdivtext'>Pech onderweg. Het kan de beste overkomen.
 		</h2>
 	</div>
 </section>

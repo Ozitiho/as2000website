@@ -163,10 +163,47 @@ section {
     background-position: 50% 40%;
 }
 
+.contactdiv.apk {
+	background: url('/images/apkdiv.jpg');
+	background-size: cover;
+    background-position: 50% 40%;
+}
+
+.contactdiv.caravan {
+	background: url('/images/caravan.jpg');
+	background-size: cover;
+    background-position: 50% 40%;
+}
+
+.contactdiv.airco {
+	background: url('/images/airco1.jpg');
+	background-size: cover;
+    background-position: 50% 50%;
+}
+.contactdiv.werkplaats {
+	background: url('/images/werkplaats.jpg');
+	background-size: cover;
+    background-position: 0% 50%;
+}
+.contactdiv.uitlijnen {
+	background: url('/images/uitlijnen.jpg');
+	background-size: cover;
+    background-position: 0% 70%;
+}
+
 .contactdiv  .blueoverlay{
 	display: inline-block;
 	background-color: rgba(84, 67, 180, 0.40);
+	width: 100%;
+}
+
+.contactdivtext{
 	padding: 80px;
+}
+
+.buttonspace{
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 .contactdiv button{
@@ -177,6 +214,8 @@ section {
 	color: white;
 	font-size: 21px;
 	font-weight: 700;
+	clear: both;
+	margin: 80px;
 }
 
 .complimentdiv{
@@ -212,6 +251,13 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 60px;
+}
+
+.longtext{
+	margin: 0;
+	padding: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .anwbdiv{
