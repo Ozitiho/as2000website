@@ -1,6 +1,6 @@
 <?php
 	$title = "Autoservice 2000 - Home";
-	include '/templates/header.html';
+	include 'templates/header.html';
 ?>
 
 <section class='contactdiv caravan'>
