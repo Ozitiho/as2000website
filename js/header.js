@@ -15,3 +15,17 @@ function dropdown() {
 			.css("visibility", "hidden")
 	})
 }
+
+function menu() {
+	var vis = $('.nav-container').css("display");
+	if(vis == "none"){
+		$('.nav-container').fadeOut(0);
+		$('.nav-container').fadeIn(750);
+		$('.nav-container').css("display", "inline-block")
+		return;
+	}
+	$('.nav-container').fadeOut(750, function() {
+		$('.nav-container')
+			.css("display", "none")
+	})
+}

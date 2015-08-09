@@ -25,17 +25,15 @@
 		<p class="longtext">
 			
 			Een APK kost voor een benzine auto van voor 1993 €39,00.
-			<br><br>
+			<br>
 			Een APK voor een benzine auto na 1993 kost €49,00
-			<br><br>
+			<br>
 			Een APK voor een diesel auto kost €59,00.
 		 	<br><br>
-			Al de bedragen zijn INCL afmelden, btw, roetmeting en viergas test. DUS GEEN VERRASSINGEN.
-			<br><br>
-			Wij streven ernaar dat u niet voor verrassingen komt te staan.
-			<br><br>
+			Al de bedragen zijn INCL afmelden, btw, roetmeting en viergas test. Dus <b>geen verassingen</b>.
+			<br>
 			Voor een afspraak kunt u altijd langskomen of :
-			<br><br>
+			<br>
 			Bel voor een afspraak met 0341-552064. of mail naar: AS2000 APKs
 		</p>
 	</div>

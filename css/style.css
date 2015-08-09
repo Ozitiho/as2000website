@@ -33,24 +33,22 @@ img
 
 @import "compass/css3";
 
-.flex-container {
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+.nav-container {
 }
 
 /* actual css */
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body
 {
-	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -70,7 +68,11 @@ header, section, footer{
 }
 
 header {
-    height: 128px;
+    min-height: 128px;
+}
+
+.menu-button{
+	display: none;
 }
 
 header #logo {
@@ -78,6 +80,18 @@ header #logo {
 }
 
 header ul, footer ul{
+	list-style: none;
+	  
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+
+
     list-style: none;
     float: right;
     border: none;
@@ -221,7 +235,6 @@ section {
 .complimentdiv{
 	display: inline-block;
 	background-image: url('/images/stitched_wool.png');
-	height: 377px;
 	min-height: 377px;
 }
 
@@ -258,6 +271,9 @@ section {
 	padding: 30px;
 	padding-left: 10%;
 	padding-right: 10%;
+	text-align: left;
+	line-height: 200%;
+	color: rgb(70,70,70);
 }
 
 .anwbdiv{
@@ -314,10 +330,6 @@ article {
 	margin-bottom: 0;
 }
 
-.profile p{
-	color: gray;
-}
-
 .icon{
 	font-size: 1.3em;
 	color: #6253b4;
@@ -339,6 +351,7 @@ article {
 }
 
 .profile .description{
+	color: gray;
 	margin-top: 3em;
 	margin-bottom: 3em;
 	text-align: left;
@@ -417,35 +430,38 @@ h2 {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1180px) {
+	.nav-container{
+	    display: none;
+	}
 
-	header ul, footer ul{
-	    padding: 0;
-	    margin: 0;
+	.menu-button{
+		display: block;
+		cursor: pointer; cursor: hand;
+		width: 100%;
+		padding: 8px;
+		font-size: 1.4em;
+		border-bottom: 1px solid black;
 	}
 
 
-	header li, footer li{
+	header li{
 		margin: 0;
-		margin-top: 40px;
 	    padding: 0px;
+
+	    text-align: right;
+	    width: 210px;
+	    margin: 5px;
+	    height: 40px;
+	    float: none;
 	}
 
-	header a, footer a{
-		font-size: 1.2em;
-	}
-
-
-	#wrapper {
-	    max-width: 900px;
-	}
-
-	header ul{
-		width: 680px;
+	.fs1{
+		float: left;
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
 
 	.story{
 		width: 100%;
@@ -465,5 +481,11 @@ h2 {
 
 	article{
 		width: 50%;
+	}	
+}
+@media screen and (max-width: 450px) {
+
+	.nav-container{
+		width: 100%;
 	}	
 }

@@ -19,7 +19,7 @@
 			Dit betekent dat dit voor de meeste auto`s neer komt op € 265,-- incl. BTW arbeid.
 			<br><br>
 			bij eventuele bijkomende kosten nemen wij eerst contact met U op.
-			<br><br>
+			<br>
 			<b>Bel voor een afspraak met 0341-552064. of mail naar: AS2000 Werkplaats</b>
 		</p>
 	</div>
