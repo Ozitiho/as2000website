@@ -77,9 +77,17 @@ header {
 
 header #logo {
 	height: 128px;
+	width: 214px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-header ul, footer ul{
+.nav-div{
+	width:100%;
+	background-color: #7190BA;
+}
+
+header ul{
 	list-style: none;
 	  
 	display: -webkit-box;
@@ -90,11 +98,10 @@ header ul, footer ul{
 	
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
+}
 
-
+header ul, footer ul{
     list-style: none;
-    float: right;
-    border: none;
     padding: 0;
     margin: 0;
 }
@@ -112,7 +119,7 @@ header a, footer a{
 	text-decoration: none;
 	font-size: 1.2em;
 	font-weight: 700;
-	color: #6253b4;
+	color: white;
 }
 
 header a:hover{
@@ -429,35 +436,10 @@ h2 {
 	font-weight: 700;
 }
 
-/* Media Queries */
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 966px) {
 	.nav-container{
-	    display: none;
-	}
-
-	.menu-button{
-		display: block;
-		cursor: pointer; cursor: hand;
-		width: 100%;
-		padding: 8px;
-		font-size: 1.4em;
-		border-bottom: 1px solid black;
-	}
-
-
-	header li{
-		margin: 0;
-	    padding: 0px;
-
-	    text-align: right;
-	    width: 210px;
-	    margin: 5px;
-	    height: 40px;
-	    float: none;
-	}
-
-	.fs1{
-		float: left;
+		width: 545px;
+		margin: auto;
 	}
 }
 
@@ -481,6 +463,12 @@ h2 {
 
 	article{
 		width: 50%;
+	}	
+}
+@media screen and (max-width: 545px) {
+
+	.nav-container{
+		width: auto;
 	}	
 }
 @media screen and (max-width: 450px) {
