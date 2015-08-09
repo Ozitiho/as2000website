@@ -115,6 +115,12 @@ header li, footer li{
 	text-align: center;
 }
 
+footer li{
+	margin: 0;
+	margin-top: 20px;
+    height: auto;
+}
+
 header a, footer a{
 	text-decoration: none;
 	font-size: 1.2em;
@@ -122,8 +128,8 @@ header a, footer a{
 	color: white;
 }
 
-header a:hover{
-	color: #8B76FF;
+header a:hover, footer a:hover{
+	color: #dee7f2;
 }
 
 .fs1 {
@@ -397,6 +403,13 @@ footer .overlay {
 	width: 100%;
 }
 
+.footer-row
+{
+	margin-left:auto;
+	margin-right: auto;
+	max-width: 600px;
+}
+
 footer ul{
 	float: none;
 }
@@ -410,8 +423,25 @@ footer a{
 	color: white;
 }
 
+.footer-block{
+	float:left;
+	margin-top: 20px;
+	color: white;
+}
+
+.footer-contact h2{
+	font-size: 1.2em;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
 footer .refs {
-	float: right;
+	float: left;
+	width: 100%;
+}
+
+.img-wrapper{
+	float:left;
 }
 
 footer img {
@@ -459,11 +489,36 @@ h2 {
 		width: 30%;
 	}	
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 588px) {
 
 	article{
 		width: 50%;
-	}	
+	}
+
+	footer .fs1{
+		font-size: 2em;
+	}
+
+	.footer-block{
+		width:100%;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	footer ul{
+		margin: auto;
+		width: 210px;
+		font-size: 2em;
+	}
+
+	.refs{
+		text-align: center;
+		font-size: 2em;
+	}
+
+	.img-wrapper{
+		width: 100%;
+	}
 }
 @media screen and (max-width: 545px) {
 
