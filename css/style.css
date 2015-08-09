@@ -139,12 +139,10 @@ header a:hover, footer a:hover{
 .servicesdd
 {
 	visibility: hidden;
-	top: 100px;
-	left: 282px;
-	position: absolute;
+	z-index: 9999;
 	width: 150px;
 	height: 212px;
-	background-color: white;
+	background-color: #7190BA;
 }
 
 .servicesdd ul{
